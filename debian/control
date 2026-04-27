@@ -1,0 +1,17 @@
+Source: sm8250-retroidpocket-alsa-ucm-conf
+Section: sound
+Priority: optional
+Maintainer: lambdadelta <lambdadeltakay@proton.me>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.7.2
+Vcs-Git: https://github.com/kay-lambdadelta/rp5-alsa-ucm-conf
+
+Package: sm8250-retroidpocket-alsa-ucm-conf
+Architecture: all
+Depends:
+ ${misc:Depends},
+ alsa-ucm-conf,
+Description: ALSA UCM configs for Retroid Pocket 5/Mini (SM8250)
+ Provides UCM configuration for Retroid Pocket 5/Mini (SM8250)
